@@ -1,0 +1,21 @@
+.nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.icon img {
+    width: 23px;
+    height: auto;
+}
+
+.menu_item a{
+    margin-right: 10px;
+    color: black;
+    font-size: 23px;
+    text-decoration: underline;
+}

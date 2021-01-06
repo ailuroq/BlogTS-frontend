@@ -1,0 +1,19 @@
+.article {
+
+}
+.articles {
+    list-style-type: none;
+}
+
+.shortInfo {
+    list-style-type: none;
+}
+.shortInfo li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.title a{
+    text-decoration: none;
+    color: #403838;
+}
