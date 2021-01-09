@@ -19,3 +19,23 @@
     font-size: 23px;
     text-decoration: underline;
 }
+.photo {
+    padding-left: 4.5%;
+}
+
+.photo img {
+    margin-top: 30px;
+    width: 110px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.sub {
+    position: absolute;
+    margin-top: 83px;
+    right: 50%;
+    font-size: 20px;
+    color: green;
+    margin-right: 45px;
+    font-family: "Times New Roman";
+}

@@ -34,7 +34,7 @@ const _getArticles = (articles) => ({
 
 export const getArticles = () => {
     return (dispatch) => {
-        return axios.get('alex/articles').then(result => {
+        return axios.get("").then(result => {
             const articles = []
             result.data.forEach((item) => {
                 articles.push(item)

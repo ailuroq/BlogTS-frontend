@@ -8,7 +8,7 @@ const Article = props => {
     return (
         <div className={styles.article}>
             <Row className="justify-content-center text-wrap">
-                <h1 className={styles.title}><NavLink to={props.title}>{props.title}</NavLink></h1>
+                <h1 className={styles.title}><NavLink to={'/'+props.id}>{props.title}</NavLink></h1>
                 <ul className={styles.shortInfo}>
                     <li>{props.date}</li>
                     <li>{props.numberOfWords} words</li>
